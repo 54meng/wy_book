@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta charset="UTF-8">
+		<title>V-Box Help</title>
+		<link rel="stylesheet" href="../lib/themes/vue.css" />
+	</head>
+
+	<body>
+
+		<nav>
+			<a href="#/en/">EN</a>
+			<a href="#/zh/">中文</a>
+		</nav>
+
+		<div id="app"></div>
+		<script>
+			window.$docsify = {
+				// 名称
+				// name: 'V-Box帮助文档',
+				// 小屏设备收缩侧边栏
+				mergeNavbar: true,
+				// 封面
+				coverpage: true,
+				 onlyCover: true,
+
+				// 侧边栏
+				loadSidebar: true,
+				// 搜索
+				search: {
+					// 过期时间，单位毫秒，默认一天
+					// 86400000 一天
+					// 三分钟
+					maxAge: 300000, 
+			    noData: {
+			      '/en/': 'No Results!',
+			      '/zh/': '找不到结果!',
+			      '/': '找不到结果!'
+			    },
+			    paths: 'auto',
+			    placeholder: {
+			      '/en/': 'Search',
+			      '/zh/': '搜索',
+			      '/': '搜索'
+			    }
+      },
+				
+				
+				
+
+			}
+		</script>
+		<script type="text/javascript" src="../js/jquery-2.1.0.js"></script>
+		<script type="text/javascript" src="../lib/docsify/docsify.js"></script>
+		<script type="text/javascript" src="../lib/docsify/search.js"></script>
+	</body>
+
+</html>
