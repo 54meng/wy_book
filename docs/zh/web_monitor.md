@@ -1,5 +1,5 @@
 # 集中监控
-![avatar](../../img/monitor.png)
+![avatar](https://github.com/54meng/wy_book/blob/master/img/monitor.png)
 > 集中监控模块即平台的默认首页,该页可通过切换分组集中监控各分组下用户创建的工程列表。并且可对分组进行添加、删除、修改操作。同时可对每个分组添加工程、移除工程。点击工程名称可浏览具体工程的解析画面。
 
 
