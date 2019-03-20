@@ -1,10 +1,11 @@
 # 集中监控
 
+## 简介
 > 集中监控模块即平台的默认首页,该页可通过切换分组集中监控各分组下用户创建的工程列表。并且可对分组进行添加、删除、修改操作。同时可对每个分组添加工程、移除工程。点击工程名称可浏览具体工程的解析画面。
 
 ![avatar](https://raw.githubusercontent.com/54meng/wy_book/master/img/monitor.png)
 
-### 分组管理
+## 分组管理
 1. 切换分组
 点击分组名称，可切换至选定的分组。
 2. 添加分组
@@ -21,7 +22,7 @@
 ![avatar](https://raw.githubusercontent.com/54meng/wy_book/master/img/monitor4.png)
 
 
-### 分配工程
+## 分配工程
 集中监控模块可给每个分组分配工程、移除工程、浏览工程。点击分组名称，将显示为该分组分配的工程列表
 ![avatar](https://raw.githubusercontent.com/54meng/wy_book/master/img/project.png)
 1. 添加工程
@@ -31,7 +32,7 @@
 3. 浏览工程
 点击工程名称，可浏览该工程的组态画面。详细请参阅3.3浏览工程。
 
-### 浏览工程
+## 浏览工程
 
 ![avatar](https://raw.githubusercontent.com/54meng/wy_book/master/img/zt.png)
 1. 实时数据

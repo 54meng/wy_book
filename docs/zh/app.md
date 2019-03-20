@@ -5,8 +5,6 @@
 提高生产效率。利用工业互联网的理念和技术，帮助企业尽快跨入工业互联网时代。
 
 
-<!--<iframe width="560" height="315" src="https://v.youku.com/v_show/id_XNDA4MTA1MDIwMA==.html?spm=a2hzp.8244740.0.0" frameborder="0" allowfullscreen></iframe>-->
-<video width="560" height="315" id="video" controls="" preload="none" poster="">
-<source id="mp4" src="https://v.youku.com/v_show/id_XNDA4MTA1MDIwMA==.html?spm=a2hzp.8244740.0.0" type="video/mp4">
-</video>
+<iframe width="560" height="315" src="http://193.112.79.68/video.MP4" frameborder="0" allowfullscreen></iframe>
+
 
