@@ -7,18 +7,21 @@
 		<meta charset="UTF-8">
 		<title>V-Box Help</title>
 		<link rel="stylesheet" href="../lib/themes/vue.css" />
+		<script type="text/javascript" src="../js/index.js" ></script>
+		<style>
+		</style>
 	</head>
 
 	<body>
 
-		<nav>
-			<a href="#/en/">EN</a>
+		<!--<nav class="app-nav no-badge">
 			<a href="#/zh/">中文</a>
-		</nav>
+		</nav>-->
 
 		<div id="app"></div>
 		<script>
 			window.$docsify = {
+				  el: '#app',
 				// 名称
 				// name: 'V-Box帮助文档',
 				// 小屏设备收缩侧边栏
@@ -28,36 +31,44 @@
 				// 只显示封面
 				onlyCover: true,
 				// 切换页面后是否自动跳转到页面顶部。
-				auto2top: true,
+				//auto2top: true,
 
 				// 侧边栏
 				loadSidebar: true,
+				loadNavbar: true,
+				subMaxLevel: 6,
+				maxLevel: 4,
 				// 搜索
 				search: {
 					// 过期时间，单位毫秒，默认一天
 					// 86400000 一天
 					// 三分钟
-					maxAge: 300000, 
-			    noData: {
-			      '/en/': 'No Results!',
-			      '/zh/': '找不到结果!',
-			      '/': '找不到结果!'
-			    },
-			    paths: 'auto',
-			    placeholder: {
-			      '/en/': 'Search',
-			      '/zh/': '搜索',
-			      '/': '搜索'
-			    }
-      },
-				
-				
-				
+					maxAge: 300000,
+					noData: {
+						'/en/': 'No Results!',
+						'/zh/': '找不到结果!',
+						'/': '找不到结果!'
+					},
+					paths: 'auto',
+					placeholder: {
+						'/en/': 'Search',
+						'/zh/': '搜索',
+						'/': '搜索'
+					}
+				},
+				// 显示文档更新日期
+				//formatUpdated: '{MM}/{DD} {HH}:{mm}',
 
 			}
 		</script>
+		<script type="text/javascript" src="../js/jquery-2.1.0.js" ></script>
 		<script type="text/javascript" src="../lib/docsify/docsify.js"></script>
 		<script type="text/javascript" src="../lib/docsify/search.js"></script>
+		<script>
+			
+		</script>
 	</body>
 
 </html>
+
+<!--//unpkg.com/docsify/themes/vue.css-->
