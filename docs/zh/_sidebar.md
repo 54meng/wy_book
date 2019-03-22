@@ -7,8 +7,7 @@
 	* [工程管理](zh/web_project)
 	* [权限管理](zh/web_auth)
 	* [组态设计](zh/web_plan)
-		* [基本部件](zh/web_plan1)
-		* [常用部件](zh/web_plan2)
+
 		
 * V-Box APP
 	* [简介](zh/app)

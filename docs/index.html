@@ -6,20 +6,24 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<meta charset="UTF-8">
 		<title>V-Box Help</title>
-		<link rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css" />
+		<link rel="stylesheet" href="../lib/themes/vue.css" title="white" />
+		<link rel="stylesheet" href="../lib/themes/dark.css" title="black" disabled />
+		<script type="text/javascript" src="../js/index.js"></script>
+		<style>
+
+		</style>
 	</head>
 
 	<body>
 
-		<!--<nav>
-			<a href="#/en/">EN</a>
+		<!--<nav class="app-nav no-badge">
 			<a href="#/zh/">中文</a>
 		</nav>-->
 
 		<div id="app"></div>
 		<script>
 			window.$docsify = {
-				  el: '#app',
+				el: '#app',
 				// 名称
 				// name: 'V-Box帮助文档',
 				// 小屏设备收缩侧边栏
@@ -58,9 +62,24 @@
 				formatUpdated: '{MM}/{DD} {HH}:{mm}',
 
 			}
+			
+			// 选择主题
+			function isTheme(e) {
+				var title = e;
+				var themes = Docsify.dom.findAll('[rel="stylesheet"]');
+				themes.forEach(function(theme) {
+					theme.disabled = theme.title !== title
+				});
+
+			}
 		</script>
-		<script type="text/javascript" src="//unpkg.com/docsify/lib/docsify.js"></script>
-		<script type="text/javascript" src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+		<script type="text/javascript" src="../js/jquery-2.1.0.js"></script>
+		<script type="text/javascript" src="../lib/docsify/docsify.js"></script>
+		<script type="text/javascript" src="../lib/docsify/search.js"></script>
+		<script>
+		</script>
 	</body>
 
 </html>
+
+<!--//unpkg.com/docsify/themes/vue.css-->

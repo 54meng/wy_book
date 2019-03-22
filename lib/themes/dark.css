@@ -359,7 +359,7 @@ body.sticky .sidebar-toggle {
 
 .markdown-section {
 	margin: 0 auto;
-	max-width: 800px;
+	max-width: 80%;
 	padding: 30px 15px 40px;
 	position: relative
 }
@@ -713,6 +713,12 @@ body {
 .markdown-section a {
 	color: var(--theme-color, #ea6f5a);
 	font-weight: 600
+}
+
+.app-sub-sidebar li:before {
+	content: ">";
+	padding-right: 4px;
+	float: left
 }
 
 .markdown-section h1 {
